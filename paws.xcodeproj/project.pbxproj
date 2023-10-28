@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32F7A3B29BD4D3C00CC5642 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F7A3A29BD4D3C00CC5642 /* SettingsView.swift */; };
+		F32F7A3F29BD9FB300CC5642 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F7A3E29BD9FB300CC5642 /* GifImage.swift */; };
 		F386ECE429BD281A0003752F /* pawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F386ECE329BD281A0003752F /* pawsApp.swift */; };
 		F386ECE629BD281A0003752F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F386ECE529BD281A0003752F /* ContentView.swift */; };
 		F386ECE829BD281A0003752F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F386ECE729BD281A0003752F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F32F7A3A29BD4D3C00CC5642 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F32F7A3E29BD9FB300CC5642 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
 		F386ECE029BD281A0003752F /* paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paws.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F386ECE329BD281A0003752F /* pawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawsApp.swift; sourceTree = "<group>"; };
 		F386ECE529BD281A0003752F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				F386ECE329BD281A0003752F /* pawsApp.swift */,
 				F386ECE529BD281A0003752F /* ContentView.swift */,
+				F32F7A3A29BD4D3C00CC5642 /* SettingsView.swift */,
+				F32F7A3E29BD9FB300CC5642 /* GifImage.swift */,
 				F386ECE729BD281A0003752F /* Assets.xcassets */,
 				F386ECEC29BD281A0003752F /* paws.entitlements */,
 				F386ECE929BD281A0003752F /* Preview Content */,
@@ -113,6 +119,8 @@
 				Base,
 			);
 			mainGroup = F386ECD729BD281A0003752F;
+			packageReferences = (
+			);
 			productRefGroup = F386ECE129BD281A0003752F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32F7A3B29BD4D3C00CC5642 /* SettingsView.swift in Sources */,
 				F386ECE629BD281A0003752F /* ContentView.swift in Sources */,
+				F32F7A3F29BD9FB300CC5642 /* GifImage.swift in Sources */,
 				F386ECE429BD281A0003752F /* pawsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +282,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"paws/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -280,6 +291,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciscoserrano.paws;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx.internal;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -297,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"paws/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciscoserrano.paws;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx.internal;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};

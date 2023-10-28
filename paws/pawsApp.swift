@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct pawsApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("Paws", systemImage: "pawprint.fill") {
             ContentView()
         }
+        .menuBarExtraStyle(.window)
     }
 }
